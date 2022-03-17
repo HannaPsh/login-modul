@@ -96,6 +96,7 @@ export default function ProfilePage() {
             name="name"
             type="text"
             value={name}
+            required
             onChange={(e) => setName(e.target.value)}
           ></input>
         </div>
@@ -105,6 +106,7 @@ export default function ProfilePage() {
             name="email"
             type="email"
             value={email}
+            required
             onChange={(e) => setEmail(e.target.value)}
           ></input>
         </div>
@@ -114,6 +116,7 @@ export default function ProfilePage() {
             name="phone"
             type="tel"
             value={phone}
+            required
             onChange={(e) => setPhone(e.target.value)}
           ></input>
         </div>
@@ -123,6 +126,7 @@ export default function ProfilePage() {
             name="password"
             type="password"
             value={password}
+            required
             onChange={(e) => setPassword(e.target.value)}
           ></input>
         </div>
